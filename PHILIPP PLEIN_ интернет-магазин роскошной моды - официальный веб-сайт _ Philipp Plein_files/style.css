@@ -17228,3 +17228,12 @@ body:not(.js-header_fixed) .is_stuck + div {
         padding-top: 0
     }
 }
+
+.m-sale {
+    height: 552px;
+}
+
+.m-sale h1 {
+    font-size: 122px;
+    text-transform: uppercase;
+}
