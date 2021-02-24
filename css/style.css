@@ -1,2 +1,22 @@
-body {
-  background: #000 !important; }
+.cta {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 251px; }
+  .cta__wrapper {
+    text-align: center; }
+  .cta__title {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px; }
+  .cta__text {
+    margin-bottom: 25px; }
+  .cta__super {
+    vertical-align: super;
+    font-size: initial; }
+  .lp-button-wrapper .cta__button:first-child {
+    margin-right: 75px; }
