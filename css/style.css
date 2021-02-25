@@ -64,3 +64,20 @@
     width: 50%; }
     .poster--hexagon figure:first-child img {
       clip-path: polygon(30% 10%, 70% 10%, 92% 50%, 70% 80%, 30% 80%, 8% 50%); }
+
+.sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.m-sale {
+  height: 552px; }
+
+.m-sale h1 {
+  font-size: 122px;
+  text-transform: uppercase; }
+
+.timer__wrapper {
+  width: 300px;
+  margin-top: auto;
+  align-self: center; }

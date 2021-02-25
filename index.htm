@@ -17,8 +17,6 @@
 
     <title>PHILIPP PLEIN: интернет-магазин роскошной моды - официальный веб-сайт | Philipp Plein</title>
 
-
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://www.plein.com/on/demandware.static/Sites-PhilippPleinRU-Site/-/default/dwa0a1c308/images/favicon.ico"
           rel="shortcut icon">
     <link rel="apple-touch-icon" sizes="180x180"
@@ -329,6 +327,8 @@
             type="text/javascript" async="" defer=""></script>
     <script src="./PHILIPP PLEIN_ интернет-магазин роскошной моды - официальный веб-сайт _ Philipp Plein_files/f(1).txt"></script>
     <script src="./PHILIPP PLEIN_ интернет-магазин роскошной моды - официальный веб-сайт _ Philipp Plein_files/f(2).txt"></script>
+    <link rel="stylesheet" href="css/timer_style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="js-header_fixed is-header-promotion-hidden">
 
@@ -5334,10 +5334,14 @@ Plein™ Bears
                         }
                     </style>
 
-                    <aside class="m-sale grid-col-100 m-bg-black m-relative b-text">
+                    <aside class="sale m-sale grid-col-100 m-bg-black m-relative b-text">
                         <h1 class="m-color-white m-text-center m-abs-middle">Sale</h1>
-                        <div class="m-timer" id="timer">
-
+                        <div class="timer__wrapper">
+                            <div id="timer" class="flipper"
+                                 data-reverse="true"
+                                 data-datetime="2021-04-01 00:00:00"
+                                 data-template="ddd|HH|ii|ss"
+                                 data-labels="Days|Hours|Minutes|Seconds"></div>
                         </div>
                     </aside>
                     <!-- /sale -->
@@ -7380,7 +7384,6 @@ Plein™ Bears
                     </section>
                     <!-- end cta -->
                 </article>
-
 
                 <article>
                     <div style="background: url('/img/banner.png'); width: 1921px; height: 801px;"></div>
@@ -10395,5 +10398,12 @@ window.criteo_q.push({event: "setAccount", account: google_tag_manager["GTM-5RWX
 <div id="criteo-tags-div" style="display: none;"></div>
 <iframe height="0" width="0" title="Criteo DIS iframe" style="display: none;"
         src="./PHILIPP PLEIN_ интернет-магазин роскошной моды - официальный веб-сайт _ Philipp Plein_files/saved_resource.html"></iframe>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery.flipper-responsive.js"></script>
+<script>
+    jQuery(function($){
+        $('#timer').flipper('init');
+    });
+</script>
 </body>
 </html>

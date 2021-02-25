@@ -100,3 +100,25 @@
     }
   }
 }
+
+// #sale
+.sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.m-sale {
+  height: 552px;
+}
+
+.m-sale h1 {
+  font-size: 122px;
+  text-transform: uppercase;
+}
+
+.timer__wrapper {
+  width: 300px;
+  margin-top: auto;
+  align-self: center;
+}
