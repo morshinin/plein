@@ -220,8 +220,25 @@ $base-bg: #f0f0f0;
 }
 
 // #timer
-.timer__wrapper {
+.timer {
   width: 200px;
   margin-top: auto;
   align-self: center;
+  
+  .flipper {
+    color: #ffffff;
+  }
+
+  label {
+    top: -10px;
+  }
+
+  .digit {
+    &-next,
+    &-top,
+    &-top2,
+    &-bottom {
+      background-color: #333333;
+    }
+  }
 }

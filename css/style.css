@@ -137,7 +137,13 @@
     font-weight: 900;
     text-transform: uppercase; }
 
-.timer__wrapper {
+.timer {
   width: 200px;
   margin-top: auto;
   align-self: center; }
+  .timer .flipper {
+    color: #ffffff; }
+  .timer label {
+    top: -10px; }
+  .timer .digit-next, .timer .digit-top, .timer .digit-top2, .timer .digit-bottom {
+    background-color: #333333; }
