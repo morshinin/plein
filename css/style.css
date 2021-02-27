@@ -67,23 +67,49 @@
     font-weight: 800;
     text-transform: uppercase; }
 
-.poster > div {
-  background: #F7F7F7; }
-
-.poster .pRelative {
-  margin: 40px 0 98px; }
-
-.poster--hexagon {
-  width: 100%;
-  height: 657px;
-  background: url("/img/promo_octagon_bg.png") center no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: space-around; }
-  .poster--hexagon figure {
-    width: 50%; }
-    .poster--hexagon figure:first-child img {
-      clip-path: polygon(30% 10%, 70% 10%, 92% 50%, 70% 80%, 30% 80%, 8% 50%); }
+.poster {
+  background-color: #f0f0f0;
+  padding: 94px 0;
+  height: 787px;
+  position: relative; }
+  .poster img {
+    position: absolute; }
+  .poster__mask {
+    -webkit-mask-image: url(/img/hexagon_section/hexagon-min.png);
+    -webkit-mask-repeat: no-repeat;
+    right: -25px;
+    margin: 10px;
+    top: -173px;
+    -webkit-mask-position: center; }
+  .poster__product {
+    left: 235px;
+    top: 300px;
+    width: 20%; }
+  .poster__text {
+    position: absolute;
+    top: 140px;
+    left: 310px;
+    text-align: center; }
+    .poster__text p:first-child {
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-weight: 600; }
+    .poster__text p:nth-child(2) {
+      font-size: 40px;
+      font-weight: 200; }
+  .poster .pRelative {
+    margin: 40px 0 98px; }
+  .poster--hexagon {
+    width: 100%;
+    height: 657px;
+    background: url("/img/promo_octagon_bg.png") center no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .poster--hexagon figure {
+      width: 50%; }
+      .poster--hexagon figure:first-child img {
+        clip-path: polygon(30% 10%, 70% 10%, 92% 50%, 70% 80%, 30% 80%, 8% 50%); }
 
 .sale {
   display: flex;

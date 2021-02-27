@@ -105,8 +105,46 @@
 
 // #poster
 .poster {
-  > div {
-    background: #F7F7F7;
+  background-color: #f0f0f0;
+  padding: 94px 0;
+  height: 787px;
+  position: relative;
+
+  img {
+    position: absolute;
+  }
+
+  &__mask {
+    -webkit-mask-image: url(/img/hexagon_section/hexagon-min.png);
+    -webkit-mask-repeat: no-repeat;
+    right: -25px;
+    margin: 10px;
+    top: -173px;
+    -webkit-mask-position: center;
+  }
+
+  &__product {
+    left: 235px;
+    top: 300px;
+    width: 20%;
+  }
+  
+  &__text {
+    position: absolute;
+    top: 140px;
+    left: 310px;
+    text-align: center;
+    
+    p:first-child {
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    p:nth-child(2) {
+      font-size: 40px;
+      font-weight: 200;
+    }
   }
 
   .pRelative {
