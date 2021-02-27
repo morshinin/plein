@@ -137,6 +137,23 @@ $base-bg: #f0f0f0;
     -webkit-mask-position: center;
   }
 
+  &--alternate {
+    .poster__mask {
+      right: auto;
+      top: -60px;
+    }
+
+    .poster__product {
+      left: auto;
+      right: 235px;
+    }
+
+    .poster__text {
+      left: auto;
+      right: 285px;
+    }
+  }
+
   &__product {
     left: 235px;
     top: 300px;

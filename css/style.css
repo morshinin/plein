@@ -85,6 +85,15 @@
     margin: 10px;
     top: -173px;
     -webkit-mask-position: center; }
+  .poster--alternate .poster__mask {
+    right: auto;
+    top: -60px; }
+  .poster--alternate .poster__product {
+    left: auto;
+    right: 235px; }
+  .poster--alternate .poster__text {
+    left: auto;
+    right: 285px; }
   .poster__product {
     left: 235px;
     top: 300px;
