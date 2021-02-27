@@ -15,7 +15,8 @@
     margin-bottom: 25px;
     margin-top: 30px; }
   .cta__text {
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    max-width: 1140px; }
   .cta__super {
     vertical-align: super;
     font-size: initial;
