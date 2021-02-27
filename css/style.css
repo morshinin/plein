@@ -1,3 +1,8 @@
+.item__img {
+  background: url("/img/banner-min.png");
+  width: 1921px;
+  height: 801px; }
+
 .cta {
   background: white;
   display: flex;
@@ -75,34 +80,36 @@
 .poster {
   background-color: #f0f0f0;
   padding: 94px 0;
-  height: 787px;
-  position: relative; }
+  height: 607px;
+  position: relative;
+  width: 100%;
+  float: left; }
+  .poster__wrapper {
+    max-width: 960px;
+    position: relative;
+    margin: auto; }
   .poster img {
     position: absolute; }
   .poster__mask {
-    -webkit-mask-image: url(/img/hexagon_section/hexagon-min.png);
-    -webkit-mask-repeat: no-repeat;
-    right: -25px;
     margin: 10px;
-    top: -173px;
-    -webkit-mask-position: center; }
+    width: 520px;
+    right: 3px; }
   .poster--alternate .poster__mask {
-    right: auto;
-    top: -60px; }
+    right: auto; }
   .poster--alternate .poster__product {
     left: auto;
-    right: 235px; }
+    right: 188px; }
   .poster--alternate .poster__text {
     left: auto;
-    right: 285px; }
+    right: 215px; }
   .poster__product {
-    left: 235px;
-    top: 300px;
+    left: 170px;
+    top: 140px;
     width: 20%; }
   .poster__text {
     position: absolute;
-    top: 140px;
-    left: 310px;
+    left: 204px;
+    top: 30px;
     text-align: center; }
     .poster__text p:first-child {
       text-transform: uppercase;
