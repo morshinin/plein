@@ -1,3 +1,5 @@
+$base-bg: #f0f0f0;
+
 // #cta
 .cta {
   background: white;
@@ -56,6 +58,8 @@
 
 // #promo
 .promo {
+  background: $base-bg;
+
   &__title {
     display:flex;
     flex-direction: column;
@@ -84,6 +88,16 @@
     }
   }
 
+  &--women {
+    .img-container-pre.desktop {
+      padding-top: 1rem;
+
+      img:nth-child(2) {
+        margin-top: 0;
+      }
+    }
+  }
+
   &__card {
     &-text {
       position: absolute;
@@ -105,7 +119,7 @@
 
 // #poster
 .poster {
-  background-color: #f0f0f0;
+  background-color: $base-bg;
   padding: 94px 0;
   height: 787px;
   position: relative;
