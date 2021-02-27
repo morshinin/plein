@@ -9,6 +9,12 @@ $base-bg: #f0f0f0;
   }
 }
 
+.unit {
+  figure img {
+    width: 100%;
+  }
+}
+
 .cta {
   background: white;
   display: flex;
@@ -228,6 +234,7 @@ $base-bg: #f0f0f0;
     font-size: 122px;
     font-weight: 900;
     text-transform: uppercase;
+    top: 140px;
   }
 }
 
@@ -236,6 +243,7 @@ $base-bg: #f0f0f0;
   width: 200px;
   margin-top: auto;
   align-self: center;
+  z-index: 1;
   
   .flipper {
     color: #ffffff;
@@ -252,5 +260,13 @@ $base-bg: #f0f0f0;
     &-bottom {
       background-color: #333333;
     }
+  }
+}
+
+.video {
+  img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 1080px;
   }
 }

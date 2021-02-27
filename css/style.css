@@ -3,6 +3,9 @@
   width: 1921px;
   height: 801px; }
 
+.unit figure img {
+  width: 100%; }
+
 .cta {
   background: white;
   display: flex;
@@ -142,15 +145,22 @@
   .sale h1 {
     font-size: 122px;
     font-weight: 900;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    top: 140px; }
 
 .timer {
   width: 200px;
   margin-top: auto;
-  align-self: center; }
+  align-self: center;
+  z-index: 1; }
   .timer .flipper {
     color: #ffffff; }
   .timer label {
     top: -10px; }
   .timer .digit-next, .timer .digit-top, .timer .digit-top2, .timer .digit-bottom {
     background-color: #333333; }
+
+.video img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 1080px; }
